@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  line-height: 2rem;
+}
+.footer .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 1% 0%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.6% 0%;
+  color: #f9f8f4;
+  font-size: 0.8em;
+}
+.footer .row > p {
+  padding: 0 3%;
+}
+.ul {
+  display: flex;
+}
+.footer .row ul li {
+  list-style: none;
+
+  padding: 0 30px;
+}

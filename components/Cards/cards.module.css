@@ -1,0 +1,16 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.cardButtons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.select {
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  color: #f8cd5f;
+}
